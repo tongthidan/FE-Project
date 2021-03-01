@@ -1,0 +1,70 @@
+$text-color : #14274A;
+$footer-color:#F7F7F7;
+$justify: center;
+$display : flex;
+$font-family :Montserrat;
+$font-size: 36px;
+$text-align: center;
+a{
+    text-decoration: none;
+}
+
+.main{
+    &__contact{
+        height: 200px !important;
+        background-color: $text-color ;
+        text-align: center;
+        .main__title{
+            padding-top: 5% !important;
+            display: inline-block;
+            p{
+                margin-bottom: 0 !important;
+                color: $footer-color;
+                font-family: $font-family;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 80px;
+                line-height: 98px;
+            }
+           
+        }
+    }
+    &__content{
+        justify-content: center;
+        &__title{
+            color: $text-color !important;
+            font-family: Adobe Garamond Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 72px;
+
+        }
+        &__content{
+            color: $text-color !important;
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 27px !important;
+            line-height: 37px;
+        }
+
+    }
+    
+
+}
+
+    .fa-arrow-right{
+        padding-left: 2% !important;
+        width: 100px;
+    }
+.form__contact{
+    p{
+        color:$text-color;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 49px;
+    }
+}
